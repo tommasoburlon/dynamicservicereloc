@@ -1,13 +1,13 @@
 # dynamicservicereloc
 Simple SDN implementation using floodlight of a dynamuic service relocation module.
 
-##profect architecture
+## profect architecture
 the floodlight directory conatins all the files and directories needed by the floodlight
 application to build the module and execut it.
 The example directory contains two simple server/client application, a simple mininet
 topology file, a simple automate testing application written in python.
 
-##building the floodlight module
+## building the floodlight module
 
 execute:
 
@@ -16,7 +16,7 @@ execute:
 where $(REPODIR) is the directory of this repository on your local machine, and $(FLOODLIGHT)
 is the root directory of the floodlight application
 
-##executing the example applications and the tests
+## executing the example applications and the tests
 
 To execute the example applications on mininet run:
 
