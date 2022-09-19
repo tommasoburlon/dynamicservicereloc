@@ -1,7 +1,7 @@
 # dynamicservicereloc
 Simple SDN implementation using floodlight of a dynamuic service relocation module.
 
-## profect architecture
+## project architecture
 the floodlight directory conatins all the files and directories needed by the floodlight
 application to build the module and execut it.
 The example directory contains two simple server/client application, a simple mininet
