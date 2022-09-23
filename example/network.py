@@ -49,9 +49,9 @@ for host in network.hosts:
         print("starting server:", host.name + ",", "ip:", host.IP())
         host.cmd("python3 server.py &> /dev/null &")
 
-if len(sys.argv) < 2 or sys.argv[1] == "demo":
+if len(sys.argv) < 2 or sys.argv[2] == "demo":
     CLI( network )
-elif sys.argv[1] == "test":
+elif sys.argv[2] == "test":
     try:
     	testNetwork(clients, servers)
     except Exception as e:
